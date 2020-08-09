@@ -9,6 +9,7 @@ function cloneField() {
 
   fields.forEach(function (filed) {
     filed.value = "";
+    document.querySelector("#schedule-items").re;
   });
 
   document.querySelector("#schedule-items").appendChild(newFieldContainer);
