@@ -90,10 +90,11 @@
   color: var(--color-primary);
   display: block;
 }
-.teacher-item footer button {
+.teacher-item footer .button {
   width: 20rem;
   height: 5.6rem;
-  background: var(--color-button-text);
+  color: var(--color-button-text);
+  background: var(--color-secondary);
   border: 0;
   border-radius: 0.8rem;
   cursor: pointer;
@@ -105,8 +106,13 @@
   transition: background 0.2s;
   margin-left: 1.6rem;
 }
-.teacher-item footer button:hover {
+.teacher-item footer .button:hover {
   background: var(--color-secondary-dark);
+}
+#page-study main .no-results {
+  max-width: 30rem;
+  margin: 12rem auto;
+  text-align: center;
 }
 
 @media (min-width: 700px) {
